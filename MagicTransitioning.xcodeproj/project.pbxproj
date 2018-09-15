@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D82A4FE214CFC91006F4E04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D82A4FD214CFC91006F4E04 /* AppDelegate.m */; };
+		0D82A506214CFC92006F4E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D82A505214CFC92006F4E04 /* Assets.xcassets */; };
+		0D82A509214CFC92006F4E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D82A507214CFC92006F4E04 /* LaunchScreen.storyboard */; };
+		0D82A50C214CFC92006F4E04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D82A50B214CFC92006F4E04 /* main.m */; };
+		0D82A516214CFCFF006F4E04 /* MainDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D82A513214CFCFF006F4E04 /* MainDetailViewController.m */; };
+		0D82A517214CFCFF006F4E04 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D82A514214CFCFF006F4E04 /* MainViewController.m */; };
+		0D82A51A214CFD0B006F4E04 /* MainCardTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D82A519214CFD0B006F4E04 /* MainCardTransition.m */; };
+		0D82A51F214CFD15006F4E04 /* MainCardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D82A51C214CFD15006F4E04 /* MainCardCollectionViewCell.m */; };
+		0D82A520214CFD15006F4E04 /* CardLayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D82A51E214CFD15006F4E04 /* CardLayOut.m */; };
+		0D82A526214CFE39006F4E04 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D82A524214CFE39006F4E04 /* BaseViewController.m */; };
+		0D82A528214CFFA3006F4E04 /* 向日葵.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0D82A527214CFFA3006F4E04 /* 向日葵.jpg */; };
+		A2C1C7DF1B598577C362F05C /* Pods_MagicTransitioning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 712513D8B38233AED7FE65A4 /* Pods_MagicTransitioning.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D82A4F9214CFC91006F4E04 /* MagicTransitioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicTransitioning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D82A4FC214CFC91006F4E04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D82A4FD214CFC91006F4E04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D82A505214CFC92006F4E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D82A508214CFC92006F4E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D82A50A214CFC92006F4E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D82A50B214CFC92006F4E04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D82A512214CFCFE006F4E04 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0D82A513214CFCFF006F4E04 /* MainDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainDetailViewController.m; sourceTree = "<group>"; };
+		0D82A514214CFCFF006F4E04 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0D82A515214CFCFF006F4E04 /* MainDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDetailViewController.h; sourceTree = "<group>"; };
+		0D82A518214CFD0B006F4E04 /* MainCardTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCardTransition.h; sourceTree = "<group>"; };
+		0D82A519214CFD0B006F4E04 /* MainCardTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCardTransition.m; sourceTree = "<group>"; };
+		0D82A51B214CFD15006F4E04 /* MainCardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCardCollectionViewCell.h; sourceTree = "<group>"; };
+		0D82A51C214CFD15006F4E04 /* MainCardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCardCollectionViewCell.m; sourceTree = "<group>"; };
+		0D82A51D214CFD15006F4E04 /* CardLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardLayOut.h; sourceTree = "<group>"; };
+		0D82A51E214CFD15006F4E04 /* CardLayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardLayOut.m; sourceTree = "<group>"; };
+		0D82A522214CFD3D006F4E04 /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		0D82A523214CFD3D006F4E04 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0D82A524214CFE39006F4E04 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		0D82A525214CFE39006F4E04 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		0D82A527214CFFA3006F4E04 /* 向日葵.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "向日葵.jpg"; sourceTree = "<group>"; };
+		712513D8B38233AED7FE65A4 /* Pods_MagicTransitioning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicTransitioning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DEFA57A9D3B05134083367C /* Pods-MagicTransitioning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTransitioning.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTransitioning/Pods-MagicTransitioning.release.xcconfig"; sourceTree = "<group>"; };
+		ABBF3D4C318FF9559980E19E /* Pods-MagicTransitioning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicTransitioning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicTransitioning/Pods-MagicTransitioning.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D82A4F6214CFC91006F4E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C1C7DF1B598577C362F05C /* Pods_MagicTransitioning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D82A4F0214CFC91006F4E04 = {
+			isa = PBXGroup;
+			children = (
+				0D82A4FB214CFC91006F4E04 /* MagicTransitioning */,
+				0D82A4FA214CFC91006F4E04 /* Products */,
+				3A9DA97CFC1E4C149EE92CA4 /* Pods */,
+				61BA7EF9B82ADF31C1E4D18D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D82A4FA214CFC91006F4E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D82A4F9214CFC91006F4E04 /* MagicTransitioning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D82A4FB214CFC91006F4E04 /* MagicTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				0D82A4FC214CFC91006F4E04 /* AppDelegate.h */,
+				0D82A4FD214CFC91006F4E04 /* AppDelegate.m */,
+				0D82A525214CFE39006F4E04 /* BaseViewController.h */,
+				0D82A524214CFE39006F4E04 /* BaseViewController.m */,
+				0D82A512214CFCFE006F4E04 /* MainViewController.h */,
+				0D82A514214CFCFF006F4E04 /* MainViewController.m */,
+				0D82A515214CFCFF006F4E04 /* MainDetailViewController.h */,
+				0D82A513214CFCFF006F4E04 /* MainDetailViewController.m */,
+				0D82A51D214CFD15006F4E04 /* CardLayOut.h */,
+				0D82A51E214CFD15006F4E04 /* CardLayOut.m */,
+				0D82A51B214CFD15006F4E04 /* MainCardCollectionViewCell.h */,
+				0D82A51C214CFD15006F4E04 /* MainCardCollectionViewCell.m */,
+				0D82A518214CFD0B006F4E04 /* MainCardTransition.h */,
+				0D82A519214CFD0B006F4E04 /* MainCardTransition.m */,
+				0D82A527214CFFA3006F4E04 /* 向日葵.jpg */,
+				0D82A521214CFD3D006F4E04 /* marco */,
+				0D82A505214CFC92006F4E04 /* Assets.xcassets */,
+				0D82A507214CFC92006F4E04 /* LaunchScreen.storyboard */,
+				0D82A50A214CFC92006F4E04 /* Info.plist */,
+				0D82A50B214CFC92006F4E04 /* main.m */,
+			);
+			path = MagicTransitioning;
+			sourceTree = "<group>";
+		};
+		0D82A521214CFD3D006F4E04 /* marco */ = {
+			isa = PBXGroup;
+			children = (
+				0D82A522214CFD3D006F4E04 /* MacroDefinition.h */,
+				0D82A523214CFD3D006F4E04 /* PrefixHeader.pch */,
+			);
+			path = marco;
+			sourceTree = "<group>";
+		};
+		3A9DA97CFC1E4C149EE92CA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABBF3D4C318FF9559980E19E /* Pods-MagicTransitioning.debug.xcconfig */,
+				8DEFA57A9D3B05134083367C /* Pods-MagicTransitioning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61BA7EF9B82ADF31C1E4D18D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				712513D8B38233AED7FE65A4 /* Pods_MagicTransitioning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D82A4F8214CFC91006F4E04 /* MagicTransitioning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D82A50F214CFC92006F4E04 /* Build configuration list for PBXNativeTarget "MagicTransitioning" */;
+			buildPhases = (
+				35FD106FCADF2D58BE1B8598 /* [CP] Check Pods Manifest.lock */,
+				0D82A4F5214CFC91006F4E04 /* Sources */,
+				0D82A4F6214CFC91006F4E04 /* Frameworks */,
+				0D82A4F7214CFC91006F4E04 /* Resources */,
+				211330DF4A7159F2D3046816 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicTransitioning;
+			productName = MagicTransitioning;
+			productReference = 0D82A4F9214CFC91006F4E04 /* MagicTransitioning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D82A4F1214CFC91006F4E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Caesar;
+				TargetAttributes = {
+					0D82A4F8214CFC91006F4E04 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 0D82A4F4214CFC91006F4E04 /* Build configuration list for PBXProject "MagicTransitioning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D82A4F0214CFC91006F4E04;
+			productRefGroup = 0D82A4FA214CFC91006F4E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D82A4F8214CFC91006F4E04 /* MagicTransitioning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D82A4F7214CFC91006F4E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D82A528214CFFA3006F4E04 /* 向日葵.jpg in Resources */,
+				0D82A509214CFC92006F4E04 /* LaunchScreen.storyboard in Resources */,
+				0D82A506214CFC92006F4E04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		211330DF4A7159F2D3046816 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MagicTransitioning/Pods-MagicTransitioning-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTRootNavigationController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicTransitioning/Pods-MagicTransitioning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35FD106FCADF2D58BE1B8598 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicTransitioning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D82A4F5214CFC91006F4E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D82A516214CFCFF006F4E04 /* MainDetailViewController.m in Sources */,
+				0D82A526214CFE39006F4E04 /* BaseViewController.m in Sources */,
+				0D82A51A214CFD0B006F4E04 /* MainCardTransition.m in Sources */,
+				0D82A50C214CFC92006F4E04 /* main.m in Sources */,
+				0D82A51F214CFD15006F4E04 /* MainCardCollectionViewCell.m in Sources */,
+				0D82A520214CFD15006F4E04 /* CardLayOut.m in Sources */,
+				0D82A4FE214CFC91006F4E04 /* AppDelegate.m in Sources */,
+				0D82A517214CFCFF006F4E04 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D82A507214CFC92006F4E04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D82A508214CFC92006F4E04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D82A50D214CFC92006F4E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D82A50E214CFC92006F4E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D82A510214CFC92006F4E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBF3D4C318FF9559980E19E /* Pods-MagicTransitioning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUDFN9L9TZ;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/marco/PrefixHeader.pch";
+				INFOPLIST_FILE = MagicTransitioning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gzk.MagicTransitioning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D82A511214CFC92006F4E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DEFA57A9D3B05134083367C /* Pods-MagicTransitioning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUDFN9L9TZ;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/marco/PrefixHeader.pch";
+				INFOPLIST_FILE = MagicTransitioning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gzk.MagicTransitioning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D82A4F4214CFC91006F4E04 /* Build configuration list for PBXProject "MagicTransitioning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D82A50D214CFC92006F4E04 /* Debug */,
+				0D82A50E214CFC92006F4E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D82A50F214CFC92006F4E04 /* Build configuration list for PBXNativeTarget "MagicTransitioning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D82A510214CFC92006F4E04 /* Debug */,
+				0D82A511214CFC92006F4E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D82A4F1214CFC91006F4E04 /* Project object */;
+}

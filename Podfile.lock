@@ -1,0 +1,22 @@
+PODS:
+  - Masonry (1.1.0)
+  - RTRootNavigationController (0.6.7):
+    - RTRootNavigationController/Core (= 0.6.7)
+  - RTRootNavigationController/Core (0.6.7)
+
+DEPENDENCIES:
+  - Masonry
+  - RTRootNavigationController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - RTRootNavigationController
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RTRootNavigationController: d6aa6cbb78a3eaecea4f6e4df63f15dd887836b8
+
+PODFILE CHECKSUM: b6fa963f3bf082d2cc17dbb25d6af8833e64954e
+
+COCOAPODS: 1.5.3
